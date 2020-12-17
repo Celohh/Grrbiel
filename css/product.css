@@ -1,0 +1,71 @@
+.div-width {
+    width: 85%;
+}
+.div-hside {
+    padding-top: 48px;
+}
+.div-hside_left {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 48px;
+    width: 75%;
+}
+.div-hside_right {
+    width: 25%;
+}
+.image_padding {
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 100%;
+    padding: 5px;
+}
+.content_vside {
+    padding: 5px 0;
+}
+.content-text_center {
+    text-align: center;
+}
+.content_space {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-content {
+    width: 100%;
+    height: 64px;
+    border-radius: 35px;
+    font-size: 18px;
+    transition: var(--trans-default);
+}
+.btn-content:hover,
+.btn-content:focus {
+    outline: 0;
+}
+.content_gray {
+    border-color: var(--mgray);
+    color: var(--dgray);
+}
+
+.btn-buy {
+    background-color: var(--black);
+    color: var(--white);
+}
+.btn-buy:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+.btn-fav {
+    background-color: transparent;
+    border: 1px solid var(--dgray);
+    /* transition: var(--trans-default) border-color; */
+}
+.btn-fav:hover {
+    border: 1px solid var(--black);
+}
+
+@media (max-width: 991px) {
+    .div-hside {
+        width: 100% !important;
+        padding-right: 0;
+    }
+}

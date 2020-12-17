@@ -1,0 +1,117 @@
+.section-hide {
+    display: none;
+}
+.button-selected {
+    border: 1px solid var(--black) !important;
+}
+.div-main > .div-center {
+    min-height: var(--height-min);
+    align-items: center;
+    justify-content: center;
+}
+.div-title_margin {
+    padding-bottom: 16px;
+}
+.form-main {
+    max-width: 325px;
+    width: 100%;
+}
+.form-prodcfg,
+.form-usercfg {
+    max-width: 600px;
+}
+.input_padding {
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    width: 100%;
+}
+.input_image label {
+    cursor: pointer;
+}
+.input_padding-nowrap {
+    flex-wrap: nowrap !important;
+}
+.input_padding-inner {
+    width: 100%;
+    padding: 0 5px;
+}
+.input_padding-inner:first-child {
+    padding-left: 0;
+}
+.input_padding-inner:last-child {
+    padding-right: 0;
+}
+.input_default {
+    display: block;
+    border: 1px solid var(--mgray);
+    padding: 0 16px;
+    min-height: 40px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input_invalid {
+    border-color: red !important;
+}
+.input_text-area {
+    resize: none;
+    padding: 8px 16px;
+}
+.input_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--dgray);
+    padding: 0;
+    margin: 0 auto;
+}
+.input_label span {
+    width: 100%;
+    text-align: center;
+}
+.input_default:focus {
+    border-color: var(--black);
+}
+.input_default:focus ~ ::placeholder {
+    color: red;
+}
+.message-gray {
+    font-size: 13px;
+    color: var(--dgray);
+    margin: 0;
+    padding: 16px 0;
+}
+.input-submit {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    transition: var(--trans-default);
+}
+.input-submit:hover,
+.input-submit:focus {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+.message-gray > a {
+    color: var(--vdgray) !important;
+    cursor: pointer;
+}
+.message-gray > a:hover,
+.message-gray > a:focus {
+    color: var(--black) !important;
+    text-decoration: underline !important;
+}
